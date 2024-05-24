@@ -47,10 +47,45 @@ CSS RESET
   #root, #__next {
     isolation: isolate;
   }
-  
+
+  body{
+    font-family: systenm-ui, Arial, Helvetica, sans-serif;
+  }
+
+  .container{
+    display: flex;
+  }
+
+  img{
+    max-width: 756px;
+  }
+
   .logo {
     position: absolute;
     top: 400px;
     left: 300px;
-    background-color: yellow;
+    background-color: white;
+  }
+
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  p:last-child{
+    margin-top: 10px;
+  }
+
+  .introduction-text {
+    background-color: lightgray;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction-text p {
+    font-weight: bold;
+    width: 60ch;
   }
