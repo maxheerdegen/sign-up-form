@@ -14,14 +14,46 @@
         </div>
         <div class="right-side">
             <div class="introduction-text">
+                <h1 class="title">Sign-Up Form</h1>
                 <p>
                 This is not a real online service! You know you need something like this in your life
                 to help you realize your deepest dreams. Sign up <em>now</em> to get started!
                 </p>
                 <p>You know you want to.</p>
             </div>
-            <div class="form"></div>
-            <div class="account-text"></div>
+            <div class="form-title">Let's do this!</div>
+            <form action="" method="get">
+                <div class="user-details">
+                    <div class="form-left">
+                        <label for="first-name">
+                            FIRST NAME <input type="text" name="user_firstName" id="first-name">
+                        </label>
+                        <label for="email">
+                            EMAIL <input type="email" name="user_mail" id="email">
+                        </label>
+                        <label for="password">
+                            PASSWORD <input type="password" name="user_password" id="password">
+                        </label>
+                    </div>
+                    <div class="form-right">
+                        <label for="last-name">
+                            LAST NAME <input type="text" name="user_lastName" id="last-name">
+                        </label>
+                        <label for="phone-number">
+                            PHONE NUMBER <input type="tel" name="user_phone" id="phone-number">
+                        </label>
+                        <label for="password-confirm">
+                            CONFIRM PASSWORD <input type="password" name="user_passwordConfim" id="password-confirm">
+                        </label>
+                    </div>
+                </div>
+                <div class="submit-part">
+                    <button type="submit">Create Account</button>
+                    <div>Already have an account?
+                        <a href="">Log in</a>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 </body>
