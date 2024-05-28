@@ -60,15 +60,35 @@ CSS RESET
     display: flex;
   }
 
-  img{
+  .background-image {
     max-width: 756px;
   }
 
-  .logo {
+  .foreground, .logo {
     position: absolute;
-    top: 400px;
-    left: 300px;
-    background-color: white;
+    top: 250px;
+    left: 0px;
+  }
+
+  .foreground {
+    width: 756px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.5;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    color: white;
+    margin-left: 120px;
+  }
+
+  .logo-image {
+    height: 200px;
+    margin-right: 20px;
+    opacity: 0.7;
   }
 
   .right-side {
@@ -95,9 +115,16 @@ CSS RESET
     width: 60ch;
   }
 
-  .form-title, .user-details {
+  .form-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .get-part {
     background-color: white;
     box-shadow: gray 5px 2px;
+    padding: 20px;
   }
 
   form {
@@ -115,5 +142,6 @@ CSS RESET
   }
 
   .submit-part {
-    display: flex;    
+    padding: 20px;  
+    margin-top: 50px;
   }
